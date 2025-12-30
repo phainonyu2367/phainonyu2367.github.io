@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="/2025/12/30/hello-world/"/>
+    <url>/2025/12/30/hello-world/</url>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Returning to the Era of Research</title>
+    <link href="/2025/12/08/Returning-to-the-Era-of-Research/"/>
+    <url>/2025/12/08/Returning-to-the-Era-of-Research/</url>
+    
+    <content type="html"><![CDATA[<h2 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h2><p>In recent years, the field of artificial intelligence has witnessed unprecedented growth, with large language models (LLMs) taking center stage. However, as we continue to push the boundaries of what these models can achieve, it’s important to reflect on the fundamental principles of research and ensure we’re not losing sight of the core scientific values.</p><h2 id="Beyond-Scaling-Law"><a href="#Beyond-Scaling-Law" class="headerlink" title="Beyond Scaling Law"></a>Beyond Scaling Law</h2><p>The scaling law has been a guiding principle for LLM development, suggesting that performance improves with model size, data, and compute. While this has proven effective in driving progress, we must now look beyond these simple scaling relationships to address more complex challenges.</p><h2 id="The-Importance-of-Fundamental-Research"><a href="#The-Importance-of-Fundamental-Research" class="headerlink" title="The Importance of Fundamental Research"></a>The Importance of Fundamental Research</h2><p>To truly advance the field, we need to prioritize fundamental research that addresses:</p><ul><li>The theoretical foundations of language understanding</li><li>The limitations of current models</li><li>Ethical and societal implications</li><li>Novel architectures that may outperform current scaling approaches</li></ul><h2 id="Conclusion"><a href="#Conclusion" class="headerlink" title="Conclusion"></a>Conclusion</h2><p>Returning to the era of research means balancing empirical progress with theoretical understanding, and ensuring that our advancements are grounded in solid scientific principles. Only then can we truly unlock the potential of artificial intelligence to benefit humanity.</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Artificial Intelligence</category>
+      
+      <category>Research</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>LLMs</tag>
+      
+      <tag>Scaling Laws</tag>
+      
+      <tag>Research Methods</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>RL Tutorial: MDP Process</title>
+    <link href="/2025/09/14/RL-Tutorial-MDP-Process/"/>
+    <url>/2025/09/14/RL-Tutorial-MDP-Process/</url>
+    
+    <content type="html"><![CDATA[<h2 id="Introduction-to-Markov-Decision-Process-MDP"><a href="#Introduction-to-Markov-Decision-Process-MDP" class="headerlink" title="Introduction to Markov Decision Process (MDP)"></a>Introduction to Markov Decision Process (MDP)</h2><p>The Markov Decision Process (MDP) is a mathematical framework used to model decision-making in situations where outcomes are partly random and partly under the control of a decision maker. It’s widely used in reinforcement learning and operations research.</p><h2 id="Key-Components-of-MDP"><a href="#Key-Components-of-MDP" class="headerlink" title="Key Components of MDP"></a>Key Components of MDP</h2><p>An MDP consists of the following elements:</p><ul><li><strong>States (S):</strong> A set of possible states the system can be in</li><li><strong>Actions (A):</strong> A set of actions available to the agent</li><li><strong>Transition Function (P):</strong> Probabilities of transitioning from one state to another given an action</li><li><strong>Reward Function (R):</strong> A function that gives the immediate reward for a state-action pair</li><li><strong>Discount Factor (γ):</strong> A factor that determines the importance of future rewards</li></ul><h2 id="MDP-Dynamics"><a href="#MDP-Dynamics" class="headerlink" title="MDP Dynamics"></a>MDP Dynamics</h2><p>The dynamics of an MDP can be described by the transition probability:</p><p>$$P(s’ | s, a) &#x3D; P(S_{t+1} &#x3D; s’ | S_t &#x3D; s, A_t &#x3D; a)$$</p><p>Where:</p><ul><li>$s$ is the current state</li><li>$a$ is the action taken</li><li>$s’$ is the next state</li></ul><h2 id="Conclusion"><a href="#Conclusion" class="headerlink" title="Conclusion"></a>Conclusion</h2><p>The Markov Decision Process provides a powerful framework for modeling sequential decision-making problems. Understanding MDPs is essential for anyone working in reinforcement learning, as they form the foundation for many algorithms and approaches in the field.</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Artificial Intelligence</category>
+      
+      <category>RL</category>
+      
+      <category>Tutorial</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Reinforcement Learning</tag>
+      
+      <tag>Markov Decision Process</tag>
+      
+      <tag>Machine Learning</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  
+</search>
