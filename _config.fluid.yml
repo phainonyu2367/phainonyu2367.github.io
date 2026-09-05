@@ -1,0 +1,8 @@
+# Fluid 主题配置覆盖（blog_station 基线）
+# 仅覆盖与主题默认不同的项；完整默认配置见 node_modules/hexo-theme-fluid/_config.yml
+# 架构文档第二节：last edited 通过 front-matter updated + Fluid post.meta.updated 展示（默认关闭，模板开启）
+post:
+  meta:
+    updated:
+      enable: true
+      format: 'LL'

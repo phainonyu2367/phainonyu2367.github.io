@@ -1,0 +1,16 @@
+{
+  "name": "blog-template",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Hexo 7 site template for blog_station (Fluid theme, all versions locked)",
+  "scripts": {
+    "build": "hexo generate"
+  },
+  "dependencies": {
+    "hexo": "7.3.0",
+    "hexo-renderer-marked": "7.0.1",
+    "hexo-renderer-pug": "3.0.0",
+    "hexo-renderer-stylus": "3.0.1",
+    "hexo-theme-fluid": "1.9.9"
+  }
+}
