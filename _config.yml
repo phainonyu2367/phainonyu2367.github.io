@@ -88,6 +88,19 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: fluid
 
+# Markdown 渲染器：hexo-renderer-markdown-it-plus（替代 marked，避免公式被转义）
+## KaTeX 插件默认启用，$...$/$$...$$ 渲染为 katex HTML，CSS/JS 由 Fluid post.math(engine: katex) 注入
+## breaks/typographer 关闭以保持与 marked 一致的换行与引号语义
+markdown_it_plus:
+  highlight: true
+  html: true
+  xhtmlOut: true
+  breaks: false
+  langPrefix:
+  linkify: true
+  typographer: false
+  pre_class: highlight
+
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 ## 博客通过 .github/workflows/deploy.yml（GitHub Actions 官方 Pages artifact 流程）部署

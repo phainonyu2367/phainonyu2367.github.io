@@ -6,3 +6,9 @@ post:
     updated:
       enable: true
       format: 'LL'
+  # 数学公式：marked 渲染器会转义公式内容，配合 hexo-renderer-markdown-it-plus 输出 katex HTML，
+  # Fluid 在文章页注入 KaTeX 资源；specific: false 表示全部文章生效（无需逐篇 front-matter 开关）
+  math:
+    enable: true
+    specific: false
+    engine: katex
